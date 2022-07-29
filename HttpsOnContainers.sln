@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution items", "Solution items", "{00DBF4A9-1AEB-421E-9FA0-6FF93CBC5F9F}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A1D83D8A-FE72-4612-8880-45573BA901BE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HttpsOnContainers.WebApiFirst", "src\HttpsOnContainers.WebApiFirst\HttpsOnContainers.WebApiFirst.csproj", "{7A89ECD4-A42D-4C06-B123-F5255BEF4BD4}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{DBE98B0F-7E31-4679-898C-7CA4526B4773}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7A89ECD4-A42D-4C06-B123-F5255BEF4BD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A89ECD4-A42D-4C06-B123-F5255BEF4BD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A89ECD4-A42D-4C06-B123-F5255BEF4BD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A89ECD4-A42D-4C06-B123-F5255BEF4BD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBE98B0F-7E31-4679-898C-7CA4526B4773}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBE98B0F-7E31-4679-898C-7CA4526B4773}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBE98B0F-7E31-4679-898C-7CA4526B4773}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBE98B0F-7E31-4679-898C-7CA4526B4773}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7A89ECD4-A42D-4C06-B123-F5255BEF4BD4} = {A1D83D8A-FE72-4612-8880-45573BA901BE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CB489124-AFB7-4253-8B08-3A7849F7BA53}
+	EndGlobalSection
+EndGlobal
